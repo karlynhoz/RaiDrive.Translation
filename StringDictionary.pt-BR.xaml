@@ -25,7 +25,7 @@
 	<system:String x:Key="Settings.General.RunAtBoot">Execute o programa automaticamente ao iniciar o Windows</system:String>
 	<system:String x:Key="Settings.General.RunAtConnect">Abrir o Explorer quando montar uma unidade</system:String>
 
-	<system:String x:Key="Notice">Notice</system:String>
+	<system:String x:Key="Notice">Aviso</system:String>
 	<system:String x:Key="AddDrive">Adicionar</system:String>
 	<system:String x:Key="AddDrive.Header">Novo Drive</system:String>
 	<system:String x:Key="AddDrive.Storage">Nuvem</system:String>
@@ -61,7 +61,7 @@
 	<system:String x:Key="Vailidation.Password">Favor inserir uma senha</system:String>
 
 	<!--  Menu bar>Settings, account, volume  -->
-	<system:String x:Key="Vailidation.Hint.Volume">volume label</system:String>
+	<system:String x:Key="Vailidation.Hint.Volume">rótulo de volume</system:String>
 	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
 	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">pasta</system:String>
 	<system:String x:Key="Vailidation.Hint.Username">usuário</system:String>
@@ -111,7 +111,7 @@
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox suporta Internet Explorer 10, 11. É melhor instalar o Internet Explorer 11.</system:String>
 	<system:String x:Key="Message.Connect.By">Conectado pelo RaiDrive</system:String>
 	<system:String x:Key="Message.Maximum.Drive">Até 8 drives podem ser criados na versão atual</system:String>
-	<system:String x:Key="Message.License.Expired">Sua licença expirou. Você precisa baixar uma nova versão. Aperte OK pra atualizar.</system:String>
+	<system:String x:Key="Message.License.Expired">Sua licença expirou. Você precisa baixar uma nova versão. Aperte OK para atualizar.</system:String>
 	<system:String x:Key="Message.License.NotReady">RaiDrive não pôde validar sua licença.</system:String>
 	<system:String x:Key="Message.UnknownSpace">Espaço desconhecido</system:String>
 	<system:String x:Key="Message.CurrentVersion">Versão Atual é {0}</system:String>
