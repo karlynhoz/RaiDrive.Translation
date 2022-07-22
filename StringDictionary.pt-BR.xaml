@@ -16,7 +16,7 @@
 	<system:String x:Key="Settings.Language">Idioma</system:String>
 	<system:String x:Key="Settings.Update">Atualizar</system:String>
 	<system:String x:Key="Settings.Facebook">Facebook</system:String>
-	<system:String x:Key="Settings.Facebook.Like">Like</system:String>
+	<system:String x:Key="Settings.Facebook.Like">Curtir</system:String>
 	<system:String x:Key="Settings.TemporaryPath">Temporário</system:String>
 	<system:String x:Key="Settings.Default">Padrão</system:String>
 	<system:String x:Key="Settings.License">Licença</system:String>
@@ -35,7 +35,7 @@
 
 	<!--  Add New Storage  -->
 	<system:String x:Key="AddDrive.Network">Rede</system:String>
-	<system:String x:Key="AddDrive.ReadOnly">Apenas-Leitura</system:String>
+	<system:String x:Key="AddDrive.ReadOnly">Apenas Leitura</system:String>
 	<system:String x:Key="AddDrive.Account">Conta</system:String>
 	<system:String x:Key="AddDrive.Username">Login</system:String>
 	<system:String x:Key="AddDrive.Password">Senha</system:String>
@@ -52,16 +52,16 @@
 	<system:String x:Key="Vailidation.VolumeExist">Este nome já existe</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidChar">Um nome de volume não pode conter nenhum destes caracteres:</system:String>
 	<system:String x:Key="Vailidation.VolumeInvalidStr">Não use os seguintes nomes reservados:</system:String>
-	<system:String x:Key="Vailidation.Letter">Favor selecioanr uma letra de unidade não usada</system:String>
-	<system:String x:Key="Vailidation.Address">Favor inserir um hostname ou endereço de IP</system:String>
-	<system:String x:Key="Vailidation.Address.WebDAV">Favor inserir uma URL</system:String>
-	<system:String x:Key="Vailidation.Address.LocalDrive">Favor selecionar uma pasta em seu PC</system:String>
-	<system:String x:Key="Vailidation.Port">Favor inserir um numero de porta (1 ~ 65535)</system:String>
-	<system:String x:Key="Vailidation.Username">Favor inserir um usuário</system:String>
-	<system:String x:Key="Vailidation.Password">Favor inserir uma senha</system:String>
+	<system:String x:Key="Vailidation.Letter">Selecionar uma letra de unidade não usada</system:String>
+	<system:String x:Key="Vailidation.Address">Inserir um hostname ou endereço de IP</system:String>
+	<system:String x:Key="Vailidation.Address.WebDAV">Inserir uma URL</system:String>
+	<system:String x:Key="Vailidation.Address.LocalDrive">Selecionar uma pasta em seu PC</system:String>
+	<system:String x:Key="Vailidation.Port">Inserir um numero de porta (1 ~ 65535)</system:String>
+	<system:String x:Key="Vailidation.Username">Inserir um usuário</system:String>
+	<system:String x:Key="Vailidation.Password">Inserir uma senha</system:String>
 
 	<!--  Menu bar>Settings, account, volume  -->
-	<system:String x:Key="Vailidation.Hint.Volume">volume label</system:String>
+	<system:String x:Key="Vailidation.Hint.Volume">rótulo de volume</system:String>
 	<system:String x:Key="Vailidation.Hint.Address">host.example.com</system:String>
 	<system:String x:Key="Vailidation.Hint.Address.LocalDrive">pasta</system:String>
 	<system:String x:Key="Vailidation.Hint.Username">usuário</system:String>
@@ -102,10 +102,10 @@
 	<system:String x:Key="Message.DuplicatedPath">Pasta duplicada</system:String>
 
 	<system:String x:Key="Message.SureDelete">Tem certeza que deseja deletar permanentemente &quot;{0} ({1})&quot; ?</system:String>
-	<system:String x:Key="Message.Title.ServiceDown">Reviver RaiDrive</system:String>
+	<system:String x:Key="Message.Title.ServiceDown">Reativar RaiDrive</system:String>
 	<system:String x:Key="Message.Title.Reconnect">Reconectar RaiDrive</system:String>
-	<system:String x:Key="Message.ServiceDown">Favor apertar o botão OK, RaiDrive vai estar ligado.</system:String>
-	<system:String x:Key="Message.Settings.Reconnect">Favor apertar o botão OK, Você precisa reconectar a unidade remota pras mudanças terem efeito.</system:String>
+	<system:String x:Key="Message.ServiceDown">Clicar no botão OK, RaiDrive vai ser ativado.</system:String>
+	<system:String x:Key="Message.Settings.Reconnect">Favor apertar o botão OK, Você precisa reconectar a unidade remota para as mudanças terem efeito.</system:String>
 	<system:String x:Key="Message.NotReady.Reboot">RaiDrive não está pronto para iniciar, Você precisa reiniciar o sistema.</system:String>
 	<system:String x:Key="Message.NotReady.Driver">Dispoditivo de driver não instalado no seu sistema. Você precisa reinstalar o RaiDrive.</system:String>
 	<system:String x:Key="Message.NotSupport.Browser.Dropbox">Dropbox suporta Internet Explorer 10, 11. É melhor instalar o Internet Explorer 11.</system:String>
@@ -173,7 +173,7 @@
 	<system:String x:Key="Upgrade.New">Você pode atualizar para a nova versão</system:String>
 
 	<system:String x:Key="NotifyIcon.Open">Abrir RaiDrive</system:String>
-	<system:String x:Key="NotifyIcon.CheckUpdate">Checar atualização</system:String>
+	<system:String x:Key="NotifyIcon.CheckUpdate">Verificar atualização</system:String>
 	<system:String x:Key="NotifyIcon.Exit">Sair</system:String>
 	<system:String x:Key="NotifyIcon.Exit.Message">Tem certeza que deseja desconectar tudo antes de sair?</system:String>
 
@@ -193,8 +193,8 @@
 	<system:String x:Key="Backup.Delete">Deletar</system:String>
 	<system:String x:Key="Backup.Start">Iniciar</system:String>
 	<system:String x:Key="Backup.Stop">Parar</system:String>
-	<system:String x:Key="Backup.BackupNOW">Backup NOW</system:String>
-	<system:String x:Key="Backup.NOW">NOW</system:String>
+	<system:String x:Key="Backup.BackupNOW">Fazer Backup AGORA</system:String>
+	<system:String x:Key="Backup.NOW">AGORA</system:String>
 	<system:String x:Key="Backup.Save">Salvar</system:String>
 	<system:String x:Key="Backup.ClearLog">Limpar log</system:String>
 	<system:String x:Key="Backup.DestRootFolder">Pasta Remota</system:String>
@@ -203,7 +203,7 @@
 	<system:String x:Key="Backup.AutoStart">Auto Iniciar</system:String>
 	<system:String x:Key="Backup.LogTab.Current">Atual</system:String>
 	<system:String x:Key="Backup.LogTab.All">Todos</system:String>
-	<system:String x:Key="Backup.LogTab.Error">Erroe</system:String>
+	<system:String x:Key="Backup.LogTab.Error">Erros</system:String>
 	<system:String x:Key="Backup.LogTab.Ready">Pronto</system:String>
 	<system:String x:Key="Backup.LogTab.Left">Faltam</system:String>
 	<system:String x:Key="Backup.LogTab.File">Arquivo</system:String>
@@ -247,7 +247,7 @@
 	<system:String x:Key="Words.Document">Documento</system:String>
 
 	<system:String x:Key="Words.Cache">Cache</system:String>
-	<system:String x:Key="Words.Lifetime">Lifetime</system:String>
+	<system:String x:Key="Words.Lifetime">Vitalício</system:String>
 	<system:String x:Key="Words.Read">Leitura</system:String>
 	<system:String x:Key="Words.Write">Escrita</system:String>
 	<system:String x:Key="Words.Second">segundo</system:String>
@@ -276,7 +276,7 @@
 
 	<system:String x:Key="GoogleDrive.MyDrive">Meu Drive</system:String>
 	<system:String x:Key="GoogleDrive.SharedWithMe">Compartilhados comigo</system:String>
-	<system:String x:Key="GoogleDrive.Computers">Computers</system:String>
+	<system:String x:Key="GoogleDrive.Computers">Computadores</system:String>
 	<system:String x:Key="GoogleDrive.SharedLink">Link compartilhado</system:String>
 
 	<system:String x:Key="OneDrive.Files">Arquivos</system:String>
@@ -318,7 +318,7 @@
 	<system:String x:Key="Words.Hide">Ocultar</system:String>
 
 	<!--  from 2021.10  -->
-	<system:String x:Key="Words.Timeout">Timeout</system:String>
+	<system:String x:Key="Words.Timeout">Tempo esgotado</system:String>
 	<system:String x:Key="Words.Seconds">Segundos</system:String>
 
 	<system:String x:Key="Words.Connected">Conectado</system:String>
